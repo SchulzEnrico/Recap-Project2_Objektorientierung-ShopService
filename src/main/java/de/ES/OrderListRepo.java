@@ -3,7 +3,7 @@ package de.ES;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderListRepo {
+public class OrderListRepo implements OrderRepo {
     private List<Order> orderList;
 
     public OrderListRepo() {
@@ -18,7 +18,9 @@ public class OrderListRepo {
         orderList.remove(order);
     }
 
+    @Override
     public List<Order> getAllOrders() {
-        return orderList;
+        return null;
     }
+
 }

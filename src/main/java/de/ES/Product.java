@@ -3,5 +3,15 @@ package de.ES;
 public record Product(
         String name,
         double price,
-        int quantity) {
+        double quantity) {
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                '}' + '\n';
+    }
 }
+

@@ -4,22 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35bdce0e-54e5-4c60-ad7a-bcaba9a80ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="35bdce0e-54e5-4c60-ad7a-bcaba9a80ec8" name="Changes" comment="add Class-ShopService">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderMapRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/OrderListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/ShopService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2WI1HRjLq1Y5PooFJCvHHUqf6eB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,9 +52,40 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Main",
+    "last_opened_file_path": "/Users/enrico/Desktop/bootcamp/projects/_finals/_coachSolutions/Recap-Project2_Objektorientierung-ShopService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/de/ES/HandProChall" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ES.Main" />
+      <module name="Recap-Project2_Objektorientierung-ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ES.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,8 +94,76 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696405192436</updated>
-      <workItem from="1696405214327" duration="6000" />
+      <workItem from="1696405214327" duration="8548000" />
+      <workItem from="1696414566378" duration="3126000" />
+      <workItem from="1696417729570" duration="2486000" />
+      <workItem from="1696421873758" duration="4095000" />
     </task>
+    <task id="LOCAL-00001" summary="BIG BANG&#10;-add class ProductRepo">
+      <option name="closed" value="true" />
+      <created>1696406693349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696406693349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BIG BANG&#10;-add class ProductRepo">
+      <option name="closed" value="true" />
+      <created>1696406737987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696406737987</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Record-Product">
+      <option name="closed" value="true" />
+      <created>1696406901843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696406901843</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Class-OrderListRepo &amp; Record-Order">
+      <option name="closed" value="true" />
+      <created>1696407393367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696407393367</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Class-ShopService">
+      <option name="closed" value="true" />
+      <created>1696407921089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696407921089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BIG BANG&#10;-add class ProductRepo" />
+    <MESSAGE value="add Record-Product" />
+    <MESSAGE value="add Class-OrderListRepo &amp; Record-Order" />
+    <MESSAGE value="add Class-ShopService" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Class-ShopService" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
