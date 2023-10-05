@@ -3,8 +3,8 @@ package de.ES.CoachSolution;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderListRepo {
-    private List<Order> orders = new ArrayList<>(); // auf diese Weise ist die Liste gleich initialisier
+public class OrderListRepo implements OrderRepo{
+    private List<Order> orders = new ArrayList<>();
 
     public List<Order> getOrders() {
         return orders;
@@ -25,11 +25,11 @@ public class OrderListRepo {
     }
 
     public void removeOrder(String id) {
-      for (Order order : orders) {
-          if (order.id().equals(id)) {
-              orders.remove(order);
-              return;
-          }
-      }
+        for (Order order : orders) {
+            if (order.id().equals(id)) {
+                orders.remove(order);
+                return;
+            }
+        }
     }
 }
