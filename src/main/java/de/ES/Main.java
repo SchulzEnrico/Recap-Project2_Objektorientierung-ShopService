@@ -20,6 +20,7 @@ public class Main {
         // Produkt mit 0 Bestand hinzufügen
         //productRepo.addProduct(new Product("Product6", 99.99, 0));
 
+
         System.out.println("Products: " + '\n' + productRepo.getAllProducts());
         System.out.println("1____________________________________________________________1");
 
@@ -35,7 +36,13 @@ public class Main {
 
         Order order = new Order("12345", products);
         // Platzieren der Bestellung
+        //for each - Methode addProduct
+        for (Product product : products) {
+            productRepo.addProduct(product);
+        }
         shopService.placeOrder(order);
+
+
         System.out.println("2____________________________________________________________2");
 
         // Bestellung anzeigen

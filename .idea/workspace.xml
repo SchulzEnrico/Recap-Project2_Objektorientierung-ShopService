@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35bdce0e-54e5-4c60-ad7a-bcaba9a80ec8" name="Changes" comment="add Class-ShopService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderMapRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderRepo.java" afterDir="false" />
+    <list default="true" id="35bdce0e-54e5-4c60-ad7a-bcaba9a80ec8" name="Changes" comment="add interface-OrderRepo&#10;add class-OrderMapRepo&#10;&#10;troubleshooting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/OrderListRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/OrderMapRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ES/CoachSolution/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ES/CoachSolution/ProductRepoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/OrderListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/OrderListRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ES/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ES/ShopService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +25,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +54,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Main",
     "last_opened_file_path": "/Users/enrico/Desktop/bootcamp/projects/_finals/_coachSolutions/Recap-Project2_Objektorientierung-ShopService",
     "node.js.detected.package.eslint": "true",
@@ -65,8 +70,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/de/ES/HandProChall" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ES.CoachSolution" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProductRepoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ES.Main" />
       <module name="Recap-Project2_Objektorientierung-ShopService" />
@@ -80,8 +91,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recap-Project2_Objektorientierung-ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ES.CoachSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ES.CoachSolution" />
+      <option name="MAIN_CLASS_NAME" value="de.ES.CoachSolution.ProductRepoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepoTest.getProductById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recap-Project2_Objektorientierung-ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ES.CoachSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ES.CoachSolution" />
+      <option name="MAIN_CLASS_NAME" value="de.ES.CoachSolution.ProductRepoTest" />
+      <option name="METHOD_NAME" value="getProductById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepoTest.getProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recap-Project2_Objektorientierung-ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ES.CoachSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ES.CoachSolution" />
+      <option name="MAIN_CLASS_NAME" value="de.ES.CoachSolution.ProductRepoTest" />
+      <option name="METHOD_NAME" value="getProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepoTest" />
+        <item itemvalue="JUnit.ProductRepoTest.getProductById" />
+        <item itemvalue="JUnit.ProductRepoTest.getProducts" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +158,8 @@
       <workItem from="1696405214327" duration="8548000" />
       <workItem from="1696414566378" duration="3126000" />
       <workItem from="1696417729570" duration="2486000" />
-      <workItem from="1696421873758" duration="4095000" />
+      <workItem from="1696421873758" duration="10367000" />
+      <workItem from="1696433666670" duration="5518000" />
     </task>
     <task id="LOCAL-00001" summary="BIG BANG&#10;-add class ProductRepo">
       <option name="closed" value="true" />
@@ -139,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696407921089</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add interface-OrderRepo&#10;add class-OrderMapRepo&#10;&#10;troubleshooting">
+      <option name="closed" value="true" />
+      <created>1696428173394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696428173394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +220,8 @@
     <MESSAGE value="add Record-Product" />
     <MESSAGE value="add Class-OrderListRepo &amp; Record-Order" />
     <MESSAGE value="add Class-ShopService" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Class-ShopService" />
+    <MESSAGE value="add interface-OrderRepo&#10;add class-OrderMapRepo&#10;&#10;troubleshooting" />
+    <option name="LAST_COMMIT_MESSAGE" value="add interface-OrderRepo&#10;add class-OrderMapRepo&#10;&#10;troubleshooting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
